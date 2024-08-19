@@ -1,0 +1,48 @@
+#countLabel {
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  font-family: Helvetica;
+}
+
+#btnContainer {
+  text-align: center;
+}
+
+.buttons {
+  padding: 20px 40px;
+  margin: 20px;
+  font-size: 1.5em;
+  color: white;
+  background-color: hsl(214, 100%, 74%);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.buttons:hover {
+  background-color: hsl(214, 100%, 56%);
+}
+
+#myH1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#theBody {
+  background-color: beige;
+}
+
+.bkButton {
+  background-color: red;
+  padding: 5px 5px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.25s;
+}
+
+.bkButton:hover {
+  background-color: hsl(0, 100%, 34%);
+}

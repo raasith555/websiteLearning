@@ -1,0 +1,39 @@
+#MyH1 {
+  text-align: center;
+  padding: 0.2em 0.4em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.btnContainer {
+  align-self: center;
+  display: block;
+  /* background-color: aqua; */
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+
+.btnContainer button {
+  /* margin: 10px 20px; */
+  display: block;
+}
+
+.buttons {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  color: white;
+  background-color: hsl(214, 100%, 74%);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  display: block;
+  width: 50%;
+  height: width * 0.5;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.buttons:hover {
+  background-color: hsl(214, 100%, 56%);
+}

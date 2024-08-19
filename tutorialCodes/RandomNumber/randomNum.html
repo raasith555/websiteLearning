@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Random Number</title>
+    <link rel="stylesheet" href="randomNum.css" />
+  </head>
+  <body>
+    <button id="backBtn" class="bkButton">Back</button>
+    <hr size="5" noshade />
+    <h1 id="myH1">Random Number Generator</h1>
+    <hr size="5" noshade />
+    <label id="genNum">0</label><br />
+    <div id="minMax">
+      <div class="inputHolder">
+        <label class="inputLabel" for="minNum">Min</label>
+        <input class="numInput" type="text" id="minNum" value="0" />
+        <!-- <br /> -->
+        <label class="inputLabel" for="maxNum">Max</label>
+        <input class="numInput" type="text" value="10" id="maxNum" />
+        <br />
+        <button id="rollBtn" class="buttons">ROLL</button>
+      </div>
+    </div>
+
+    <script src="randomNum.js"></script>
+  </body>
+</html>
