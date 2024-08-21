@@ -1,0 +1,59 @@
+#btnContainer {
+  text-align: center;
+}
+
+.buttons {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1.5em;
+  color: white;
+  background-color: hsl(214, 100%, 74%);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.buttons:hover {
+  background-color: hsl(214, 100%, 56%);
+}
+
+.myH1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.bkButton {
+  background-color: red;
+  padding: 5px 5px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.25s;
+}
+
+.bkButton:hover {
+  background-color: hsl(0, 100%, 34%);
+}
+
+#numberRange {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.guessField {
+  width: 10em;
+  height: 2em;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 20px;
+}
+
+#guessHolder {
+  text-align: center;
+  display: block;
+}

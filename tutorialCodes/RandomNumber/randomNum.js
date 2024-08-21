@@ -16,9 +16,11 @@ rollBtn.onclick = function () {
     max = min + 1;
     maxNum.value = max;
     window.alert(`Max smaller than min, set max to ${max}.`);
+    rando = Math.floor(Math.random() * max) + min;
+  } else {
+    rando = Math.floor(Math.random() * max) + min;
   }
 
-  rando = Math.floor(Math.random() * max) + min;
   console.log(max, min, rando);
   genNum.textContent = rando;
 };
